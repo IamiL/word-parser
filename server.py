@@ -5,7 +5,7 @@ HTTP сервер для обработки DOCX файлов
 from flask import Flask, request, jsonify, make_response
 from werkzeug.exceptions import BadRequest, RequestEntityTooLarge
 import logging
-from docx_processor import process_docx_file, process_docx_with_tables
+from docx_processor import process_docx_file
 
 
 # Конфигурация приложения
